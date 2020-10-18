@@ -7,7 +7,7 @@ arrayNodes.forEach(el => console.log(el.innerText));
 
 const nbreMots = arrayNodes.map(arr => arr.innerText).map(phrase => phrase.split(' ')).reduce((sum, current) => sum + current.length, 0);
 
-console.log(arrayMots);
+console.log(nbreMots);
 
 
 // 2e solution
